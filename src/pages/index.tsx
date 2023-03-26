@@ -1,3 +1,5 @@
+import { Button } from "@/ui/Button";
+import { Tag } from "@/ui/Tag";
 import Head from "next/head";
 import Image from "next/image";
 
