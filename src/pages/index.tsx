@@ -12,7 +12,7 @@ export default function Home() {
       </Head>
       <div className="relative flex min-h-full flex-col items-center overflow-hidden font-heading gap-16">
         <div className="absolute inset-0 bg-[url(../assets/images/grid.svg)] bg-center [mask-image:linear-gradient(180deg,white,rgba(255,255,255,0))]"></div>
-        <div className="pt-12 text-lg">AssembleGrowth</div>
+        <div className="pt-8 text-lg">AssembleGrowth</div>
         <div className="sm:max-w-auto relative flex flex-col gap-10 px-10 py-20 sm:mx-auto sm:rounded-lg sm:px-20 bg-lightorange">
           <h1 className="text-5xl font-bold lg:tracking-tight xl:text-7xl max-w-2xl text-center">
             The Next-Gen web development agency
