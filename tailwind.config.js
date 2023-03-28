@@ -10,8 +10,8 @@ module.exports = {
       },
       keyframes: {
         "animate-gradient-1": {
-          "0%, 16.667%, 100%": { opacity: "1" },
-          "33.333%, 83.333%": { opacity: "0" },
+          "0%, 16.667%, 100%": { opacity: "0" },
+          "33.333%, 83.333%": { opacity: "1" },
         },
       },
       fontFamily: {
