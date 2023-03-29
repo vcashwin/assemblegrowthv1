@@ -38,7 +38,7 @@ export default function LoginPage() {
             ></input>
             <p className="text-center py-6 font-sans text-xs">
               {"Forgot your password? "}{" "}
-              <span className="text-customorange font-bold hover:underline">
+              <span className="text-customorange font-bold hover:underline cursor-pointer">
                 {"Send reset link"}
               </span>
             </p>
@@ -51,7 +51,7 @@ export default function LoginPage() {
         >
           <h3 className="mx-auto font-sans">
             {"Don't have an account yet? "}
-            <span className="text-customorange font-bold hover:underline">
+            <span className="text-customorange font-bold hover:underline cursor-pointer">
               {"Sign up"}
             </span>
           </h3>
