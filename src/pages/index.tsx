@@ -1,4 +1,5 @@
 import { PastCompanies } from "@/sections/past-companies";
+import { Testimonials } from "@/sections/testimonials";
 import { Button } from "@/ui/Button";
 import { Tag } from "@/ui/Tag";
 import Head from "next/head";
@@ -39,6 +40,9 @@ export default function Home() {
         </div>
         <section className="flex justify-center w-full">
           <PastCompanies />
+        </section>
+        <section className="flex justify-center w-full">
+          <Testimonials />
         </section>
       </div>
     </>
