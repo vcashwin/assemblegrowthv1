@@ -38,12 +38,12 @@ export default function Home() {
             A single subscription to 10x your business.
           </h1>
         </div>
-        <section className="flex justify-center w-full">
+        {/* <section className="flex justify-center w-full">
           <PastCompanies />
         </section>
         <section className="flex justify-center w-full">
           <Testimonials />
-        </section>
+        </section> */}
       </div>
     </>
   );
