@@ -18,7 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <div className={`${grifter.variable} ${jakarta.variable}`}>
-        <Component {...pageProps} />;
+        <Component {...pageProps} />
       </div>
       <Analytics />
     </>

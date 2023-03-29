@@ -11,7 +11,7 @@ export const Button = ({
   text,
   className: customClass,
 }: ButtonProps) => {
-  const className = `font-heading text-white text-center text-lg bg-black p-6 px-20 w-full md:w-fit tracking-wider rounded-xl shadow hover:-translate-y-2 transform duration-200 ease-in ${customClass}`;
+  const className = `font-heading text-white text-center text-lg bg-black p-6 px-20 w-full tracking-wider rounded-xl shadow hover:-translate-y-2 transform duration-200 ease-in ${customClass}`;
   return (
     <button onClick={onClick} className={className}>
       {text}
