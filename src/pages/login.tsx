@@ -1,7 +1,10 @@
 import { Button } from "@/ui/Button";
-import React from "react";
+import * as React from "react";
 
 export default function LoginPage() {
+  const emailRef = React.useRef<HTMLInputElement>(null);
+  const passwordRef = React.useRef<HTMLInputElement>(null);
+  const handleSubmit = () => {};
   return (
     <div className="flex flex-col items-center min-h-screen h-full bg-black text-white font-heading">
       <p id="title" className="text-2xl tracking-wider py-10">
@@ -17,13 +20,18 @@ export default function LoginPage() {
             <h1>{"Let's sign in."}</h1>
           </div>
 
-          <form className="flex flex-col w-full gap-4 bg-white text-black font-sans">
+          <form
+            onSubmit={handleSubmit}
+            className="flex flex-col w-full gap-4 bg-white text-black font-sans"
+          >
             <input
+              ref={emailRef}
               type="email"
               placeholder="Email address"
               className="outline-none border-black border-2 rounded-xl p-4 focus:border-blue-400"
             ></input>
             <input
+              ref={passwordRef}
               type="password"
               placeholder="Password"
               className="outline-none border-black border-2 rounded-xl p-4 focus:border-blue-400"
@@ -34,7 +42,7 @@ export default function LoginPage() {
                 {"Send reset link"}
               </span>
             </p>
-            <Button text="Login" onClick={() => {}} />
+            <Button text="Login" onClick={handleSubmit} />
           </form>
         </section>
         <section
