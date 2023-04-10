@@ -1,3 +1,4 @@
+import { Memberships } from "@/sections/memberships";
 import { PastCompanies } from "@/sections/past-companies";
 import { Testimonials } from "@/sections/testimonials";
 import { Button } from "@/ui/Button";
@@ -43,6 +44,9 @@ export default function Home() {
         </section>
         <section className="flex justify-center w-full">
           <Testimonials />
+        </section>
+        <section className="flex justify-center w-full">
+          <Memberships />
         </section> */}
       </div>
     </>
