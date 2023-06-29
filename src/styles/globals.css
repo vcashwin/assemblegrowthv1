@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.noise {
+  background-image: url(https://assets.website-files.com/5837424ae11409586f837994/611b2d3c1a84f270060c9ec1_Texture.png);
+}
+
 @layer utilities {
   .shadow {
     box-shadow: 6px 6px 0 0 rgba(0, 0, 0, 0.2);
